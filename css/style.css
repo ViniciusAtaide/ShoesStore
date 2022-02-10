@@ -24,6 +24,11 @@ body {
   margin: 0 auto;
 }
 
+.main-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .menu-list {
   font-size: 1.5rem;
   display: flex;
@@ -62,6 +67,8 @@ body {
 
 .off-section {
   background-color: var(--background-color);
+  margin-left: calc(50% - 50vw - 9px);
+  width: 100vw;
   padding: 10px 0;
 }
 
