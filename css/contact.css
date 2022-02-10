@@ -58,13 +58,17 @@ input[type=file] {
 
 .file-curriculum {
   background: #C4C4C4;
+  cursor: pointer;
   color: white;
   width: 118px;
+  height: 26px;
+  line-height: 26px;
   display: block;
   text-align: center;
 }
 
 .send-button {
+  cursor: pointer;
   background-color: var(--background-color);
   color: white;
   border: 0;

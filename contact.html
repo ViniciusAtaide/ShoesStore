@@ -11,7 +11,9 @@
   <body>
     <header class="header">
       <div class="logo-wrapper">
-        <img src="images/logo.png" alt="shoes" class="logo-wrapper" />
+        <a href="/">
+          <img src="images/logo.png" alt="shoes" class="logo-wrapper" />
+        </a>
       </div>
 
       <nav class="menu">
@@ -28,11 +30,11 @@
     </header>
 
     <main class="contact-main">
-      <form action="contact.html" method="get">
+      <form action="contact.html" method="post">
         <section class="form-wrapper">
           <h1>Faça parte do nosso time</h1>
           <label for="name">Nome</label>
-          <input required type="text" name="name" id="name" />
+          <input type="text" name="name" id="name" />
           <label for="email">Email</label>
           <input required type="email" name="email" id="email" />
           <label for="phone">Telefone</label>
@@ -103,7 +105,7 @@
               class="file-curriculum"
               for="file-curriculum"
             >
-              <input type="file" name="curriculum" id="file-curriculum" />
+              <input accept="application/pdf" type="file" name="curriculum" id="file-curriculum" />
               upload
             </label>
           </div>
