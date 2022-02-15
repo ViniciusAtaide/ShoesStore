@@ -7,6 +7,22 @@
   gap: 75px;
 }
 
+.banner {
+  background-color: var(--background-color);
+  color: white;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.banner-text {
+  padding: 0;
+  margin: 0;
+}
+
+
 @media (min-width: 1025px) {
   .contact-main {
     flex-direction: row;
@@ -75,4 +91,11 @@ input[type=file] {
   font-weight: bold;
   font-size: 1.4rem;
   padding: 5px 0;
+  transition-property: color, background-color;
+  transition: 1s;
+}
+
+.send-button:hover {
+  color: var(--background-color);
+  background-color: white;
 }
