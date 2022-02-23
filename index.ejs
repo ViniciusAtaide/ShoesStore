@@ -1,30 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Shoes Store</title>
+    <%- include('./partials/header') %>
   </head>
   <body>
-    <header class="header">
-      <div class="logo-wrapper">
-        <img src="images/logo.png" alt="shoes" class="logo-wrapper" />
-      </div>
-
-      <nav class="menu">
-        <ul class="menu-list">
-          <li class="menu-item">Todos os produtos</li>
-          <li class="menu-item">Coleções</li>
-          <li class="menu-item">Outlet</li>
-        </ul>
-      </nav>
-
-      <nav class="menu-mobile">
-        <img src="/images/icons/menu.png" alt="menu">
-      </nav>
-    </header>
+    <%- include('./partials/menu') %>
 
     <section class="top-section">
       <img src="/images/header.png" alt="imagem-principal" class="main-img" />
@@ -120,51 +100,6 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        <div class="logo-footer-wrapper">
-          <img src="/images/logo_inverted.png" alt="shoes" />
-          <p class="logo-resume">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
-            repellat rem aspernatur magni id ea exercitationem.
-          </p>
-        </div>
-        <div class="menu-footer">
-          <div class="categories-wrapper">
-            <p>categorias</p>
-            <ul class="categories">
-              <li><a href="#">sandálias</a></li>
-              <li><a href="#">botas</a></li>
-              <li><a href="#">tênis</a></li>
-              <li><a href="#">oxford</a></li>
-              <li><a href="#">coturnos</a></li>
-            </ul>
-          </div>
-          <div class="institutional-wrapper">
-            <p>institucional</p>
-            <ul class="institutional">
-              <li>
-                <a href="#">sobre nós</a>
-              </li>
-              <li>
-                <a href="#">perguntas frequentes</a>
-              </li>
-              <li>
-                <a href="#">política de privacidade</a>
-              </li>
-              <li>
-                <a href="#">rastreamento de pedidos</a>
-              </li>
-              <li>
-                <a href="#">trabalhe conosco</a>
-              </li>
-              <li>
-                <a href="/contact.html">contato</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <%- include('./partials/footer') %>
   </body>
 </html>
