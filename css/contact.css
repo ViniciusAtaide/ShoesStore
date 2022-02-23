@@ -92,7 +92,7 @@ input[type=file] {
   font-size: 1.4rem;
   padding: 5px 0;
   transition-property: color, background-color;
-  transition: 1s;
+  transition: 3s;
 }
 
 .send-button:hover {
